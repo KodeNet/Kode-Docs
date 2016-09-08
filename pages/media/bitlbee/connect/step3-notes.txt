@@ -1,0 +1,10 @@
+To view connected buddies:
+
+blist - List all the buddies in the current channel
+
+Syntax: 
+
+blist [all|online|offline|away] [<pattern>]
+You can get a more readable buddy list using the blist command. If you want a complete list (including the offline users) you can use the all argument.
+
+A perl-compatible regular expression can be supplied as pattern to filter the results (case-insensitive).
