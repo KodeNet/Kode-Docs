@@ -11,7 +11,7 @@ taxonomy:
 
 Xabber users can connect a KodeNet Jabber ID with the following steps.
 
-1. Tap **Add Account** after launching Xabber for the first time.
+1. Tap **ADD ACCOUNT** after launching Xabber for the first time.
 ![Xabber](/user/pages/media/xabber/connect/step1.png)
 
 2. By default **XMPP** will be selected for the account type. Enter the XMPP/Jabber username and password created during registration in the next two fields, then tap **ADD ACCOUNT** in the upper-right of the screen.
@@ -37,13 +37,8 @@ Xabber users can connect a KodeNet Jabber ID with the following steps.
 4. **Exit** Xabber
 ![Xabber](/user/pages/media/xabber/connect/step5.png)
 
-* Tapping the 3 dotted vertical menu will allow the following actions
+* Tapping the 3 dotted vertical menu will allow the following actions as shown below.
 
-1. Add a **contact**
-2. Add a **conference**
-3. Set an account **status**
-4. View the **chat list**
-5. **Close** all chats
 ![Xabber](/user/pages/media/xabber/connect/step6.png)
 
 #### Resources
