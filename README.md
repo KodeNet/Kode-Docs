@@ -1,2 +1,2 @@
 # Kode-Docs
-Repository for KodeNet Documentation
+Repository for KodeNet Documentation surrounding XMPP/Jabber chat accounts.
