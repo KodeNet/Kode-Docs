@@ -10,20 +10,18 @@ taxonomy:
 ## Connecting
 BitlBee users can connect a KodeNet Jabber ID using a preferred IRC (Internet Relay Chat) client. The described steps use the irssi client, but the same commands apply to any other IRC clients. With BitlBee it looks like you're connecting to an IRC server, only you're not. Instead, BitlBee will only be listening on localhost and the standard IRC port 6667.
 
-+ The following syntax will add a KodeNet XMPP/Jabber account.
-
+#### Add Account
 `account add <protocol> <username> [<password>]`
 
-##### Example 
+###### Example 
 `account add jabber demo@kode.im demopassword`
 
 ![BitlBee](/user/pages/media/bitlbee/connect/step1.png)
 
-+ The following syntax will enable the account.
-
+#### Enable Account
 `account [<account id>] on`
 
-##### Example
+###### Example
 `account demo@kode.im on`
 
 The XMPP/Jabber account should now show a successful connection with 
@@ -35,11 +33,11 @@ jabber - Logging in: Logged in
 ```
 ![BitlBee](/user/pages/media/bitlbee/connect/step2.png)
 
-+ The following syntax will show the roster/buddy list.
+#### Display Roster/BuddyList
 
 `blist [all|online|offline|away] [<pattern>]`
 
-##### Example
+###### Example
 `blist all`
 ![BitlBee](/user/pages/media/bitlbee/connect/step3.png)
 
