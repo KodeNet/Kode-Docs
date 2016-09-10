@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-### Section 1
+### Section 2
 # Create
 
 The information covered in this section describes options to create a **KodeNet** XMPP/Jabber account.
