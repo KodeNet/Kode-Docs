@@ -4,6 +4,15 @@ taxonomy:
     category:
         - docs
 --- 
+Connecting to the KodeNet IRC network is a breeze following the information presented on this page.
+
+## Connecting
+| Server             | Port     | TLS   |
+| ------------------ |:--------:| -----:|
+| `irc.koderoot.net`   | `6667`     | ![no](/user/pages/media/irc/red-no.png) |
+| `irc.koderoot.net`   | `6697`     | ![yes](/user/pages/media/irc/green-yes.png) |
+
+## IRC clients
 #### Irssi
 After launching Irssi execute the following command to connect securely to the KodeNet IRC network.
 
@@ -20,6 +29,7 @@ Before connecting with WeeChat you must first specify the path of the Common CA 
 **macOS**
 `/set weechat.network.gnutls_ca_file "/usr/local/etc/openssl/cert.pem"`
 
+## Services
 #### NickServ
 Register a username.
 
@@ -38,6 +48,7 @@ Request a virtual host so you can have something like `me@my.cool.vhost` or some
 
 `/msg hostserv request vhost`
 
+## Other
 #### Client Certificates (optional)
 ```
 openssl req -newkey rsa:2048 -days 3650 -x509 -keyout kodenet.key -out kodenet.crt -nodes
