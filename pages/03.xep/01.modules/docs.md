@@ -42,6 +42,9 @@ This module is used between XMPP servers to provide identity verification. Serve
 #### [XEP-0030](https://xmpp.org/extensions/xep-0030.html): disco
 With this module clients can discover services and features available on the server. Some clients will automatically take advantage of the available items while others will need manual configuration.
 
+#### [XEP-0363](https://xmpp.org/extensions/xep-0363.html): http_upload
+This module implements XEP-0363, versions 0.2 and 0.3, which let clients upload files over HTTP.
+
 #### [undefined]: invite
 This module allows users with an account to generate single-use invite URLs using an ad-hoc command. After the account is created, the inviter and the invitee are automatically added to the other’s roster. The inviter of a user is stored, so can be used later (for example, for detecting spammers).
 
@@ -95,6 +98,9 @@ The time module implements XEP-0202 and the obsolete XEP-0090 for compatibility 
 
 #### [RFC-6120](https://xmpp.org/rfcs/rfc6120.html#tls): tls
 This module adds support for secure TLS (Transport Layer Security) encryption on connected streams. By default TLS on KodeNet XMPP is required between client-to-client and server-to-server connections.
+
+#### [undefined]: tls_policy
+This module arose from discussions at the XMPP Summit about enforcing better ciphers in TLS. It may seem attractive to disallow some insecure ciphers or require forward secrecy, but doing this at the TLS level would provide the user with an unhelpful "Encryption failed" message. This module does this enforcing at the application level, allowing better error messages. KodeNet XMPP is set to allow only ciphers that enable [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
 
 #### [XEP-0012](https://xmpp.org/extensions/xep-0012.html): uptime
 This module allows the server to respond to requests for how long it has been running.
