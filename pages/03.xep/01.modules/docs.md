@@ -54,6 +54,12 @@ Message Archive Management will archive all messages that match the simple rules
 #### [XEP-0136](http://xmpp.org/extensions/xep-0136.html): mam_archive
 Because XEP-0136 defines a ‘conversation’ concept not present in XEP-0313, we have to assume some periods of chat history as ‘conversations’. Conversation interval defaults to one day, to provide for a convenient usage.
 
+#### [undefined]: muc_intercom
+This module allows sending a message to another MUC room. For example, doing `@other-room: hello` will allow the message to appear in the other room as as `<first-room/You> hello`.
+
+#### [XEP-0313](https://xmpp.org/extensions/xep-0313.html): mam_muc
+This module logs the conversation of chatrooms running on the server to Prosody’s archive storage. To access them you will need a client with support for XEP-0313: Message Archive Management
+
 #### [XEP-0045](https://xmpp.org/extensions/xep-0045.html): muc
 The Multi-User Chat specification defines an XMPP protocol extension for multi-user text chat, whereby multiple XMPP users can exchange messages in the context of a room or channel, similar to Internet Relay Chat (IRC).
 
