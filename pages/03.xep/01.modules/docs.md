@@ -22,7 +22,7 @@ This module blocks strangers not in your roster (also known as a Contact/Buddy L
 Enable BOSH clients, also known as "Jabber over HTTP".
 
 #### [XEP-0280](https://xmpp.org/extensions/xep-0280.html): carbons
-Message Carbons allows users to maintain a shared and synchronized view of all conversations across all their online clients and devices.
+Message Carbons allows users to maintain a shared and synchronized view of all conversations across all your online clients and devices.
 
 #### [XEP-3057](https://xmpp.org/extensions/xep-0357.html): cloud_notify
 The purpose of push notifications is to inform users of new messages or other pertinent information even when they have no XMPP clients online. Notifications are typically delivered to a user's mobile device.
@@ -55,7 +55,7 @@ Message Archive Management will archive all messages that match the simple rules
 Because XEP-0136 defines a ‘conversation’ concept not present in XEP-0313, we have to assume some periods of chat history as ‘conversations’. Conversation interval defaults to one day, to provide for a convenient usage.
 
 #### [undefined]: muc_intercom
-This module allows sending a message to another MUC room. For example, doing `@other-room: hello` will allow the message to appear in the other room as as `<first-room/You> hello`.
+This module allows sending a message to another MUC room. For example, doing `@other-room: hello` will allow the message to appear in the other room as `<first-room/You> hello`.
 
 #### [XEP-0313](https://xmpp.org/extensions/xep-0313.html): mam_muc
 This module logs the conversation of chatrooms running on the server to Prosody’s archive storage. To access them you will need a client with support for XEP-0313: Message Archive Management
