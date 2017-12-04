@@ -48,6 +48,9 @@ This module implements XEP-0363, versions 0.2 and 0.3, which let clients upload 
 #### [undefined]: invite
 This module allows users with an account to generate single-use invite URLs using an ad-hoc command. After the account is created, the inviter and the invitee are automatically added to the other’s roster. The inviter of a user is stored, so can be used later (for example, for detecting spammers).
 
+#### [XEP-0012](https://xmpp.org/extensions/xep-0012.html): lastactivity
+With this module users can query how long another user has been idle.
+
 #### [XEP-0313](https://xmpp.org/extensions/xep-0313.html): mam
 Message Archive Management will archive all messages that match the simple rules setup by the user, and allow the user to access this archive.
 
@@ -109,7 +112,7 @@ This module adds support for secure TLS (Transport Layer Security) encryption on
 This module arose from discussions at the XMPP Summit about enforcing better ciphers in TLS. It may seem attractive to disallow some insecure ciphers or require forward secrecy, but doing this at the TLS level would provide the user with an unhelpful "Encryption failed" message. This module does this enforcing at the application level, allowing better error messages. KodeNet XMPP is set to allow only ciphers that enable [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
 
 #### [XEP-0012](https://xmpp.org/extensions/xep-0012.html): uptime
-This module allows the server to respond to requests for how long it has been running.
+This module implements XEP-0012 and allows the server to respond to requests for how long it has been running.
 
 #### [XEP-0092](http://xmpp.org/extensions/xep-0092.html): version
 Using this module allows the servers to respond to software version requests.
