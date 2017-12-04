@@ -24,4 +24,4 @@ Available KodeNet domains `im.koderoot.net` or `kode.im` can be entered in the *
 
 ##### Web Page
 
-KodeNet also has an available [web registration page](https://im.koderoot.net/xmpp_register) that allows registration on the `im.koderoot.net` domain. Users must enter a random CAPTCHA in an attempt to fight off spammers and determine whether or not the user is human. 
+KodeNet also has an available [web registration page](https://im.koderoot.net/register_web) that allows registration on the `im.koderoot.net` domain. Users must enter a random CAPTCHA in an attempt to fight off spammers and determine whether or not the user is human. 
