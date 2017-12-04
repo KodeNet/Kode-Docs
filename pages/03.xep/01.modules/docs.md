@@ -61,7 +61,7 @@ Because XEP-0136 defines a ‘conversation’ concept not present in XEP-0313, w
 This module allows sending a message to another MUC room. For example, doing `@other-room: hello` will allow the message to appear in the other room as `<first-room/You> hello`.
 
 #### [XEP-0313](https://xmpp.org/extensions/xep-0313.html): mam_muc
-This module logs the conversation of chatrooms running on the server to Prosody’s archive storage. To access them you will need a client with support for XEP-0313: Message Archive Management
+This module logs the conversation of chatrooms running on the server to Prosody’s archive storage. To access them you will need a client with support for XEP-0313: Message Archive Management.
 
 #### [XEP-0045](https://xmpp.org/extensions/xep-0045.html): muc
 The Multi-User Chat specification defines an XMPP protocol extension for multi-user text chat, whereby multiple XMPP users can exchange messages in the context of a room or channel, similar to Internet Relay Chat (IRC).
