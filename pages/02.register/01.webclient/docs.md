@@ -1,16 +1,16 @@
 ---
-title: Chat Accounts
+title: 'Chat Accounts'
 taxonomy:
     category:
         - docs
---- 
+---
+
+ 
 
 ## Register
-
 There are a couple ways a new user can register a KodeNet Jabber account to begin chatting with friends, family, co-workers or anyone who needs a way to communicate via secure Instant Messaging.
 
 ##### In-band
-
 Per [XEP-0077](https://xmpp.org/extensions/xep-0077.html)
 
 > In-band registration must make it possible for an entity to register with a host, cancel an existing registration with a host, or change a password with a host.
@@ -23,5 +23,9 @@ KodeNet features an integrated free and open-source XMPP chat client powered by 
 Available KodeNet domains `im.koderoot.net` or `kode.im` can be entered in the **Register** tab followed by **Fetch registration form**.
 
 ##### Web Page
+KodeNet XMPP also has an available web registration page allowing registration on the following domains:
 
-KodeNet also has an available [web registration page](https://im.koderoot.net/register_web) that allows registration on the `im.koderoot.net` domain. Users must enter a random CAPTCHA in an attempt to fight off spammers and determine whether or not the user is human. 
++ [im.koderoot.net](https://im.koderoot.net/register-on-im.koderoot.net)
++ [kode.im](https://im.koderoot.net/register-on-kode.im) 
+
+New registrations must complete a required CAPTCHA in an attempt to fight off spammers and determine whether or not the user is human. 
