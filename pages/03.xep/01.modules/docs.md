@@ -8,7 +8,7 @@ taxonomy:
 ## Intro
 >The core specifications for XMPP are developed at the Internet Engineering Task Force (IETF) - see [RFC 6120](https://datatracker.ietf.org/doc/rfc6120/), [RFC 6121](https://datatracker.ietf.org/doc/rfc6121/), and [RFC 7622](https://datatracker.ietf.org/doc/rfc7622/) (along with a WebSocket binding defined in [RFC 7395](https://datatracker.ietf.org/doc/rfc7395/))
 
-Prosody - the service powering KodeNet XMPP/Jabber communication services is customized to use _modules_, synonymous to _plugins_ to add features and functionality. These modules are defined by their respected XMPP specification. We will be highlighting some of the more common modules that are loaded and available for KodeNet XMPP users.
+Prosody - the service powering KodeNet XMPP/Jabber communication services is customized to use _modules_, synonymous to _plugins_ to add features and functionality. These modules are defined by their respective XMPP specification. We will be highlighting some of the more common modules that are loaded and available for KodeNet XMPP users.
 
 ## Modules
 
@@ -77,6 +77,12 @@ This specification defines an XMPP protocol extension for enabling or disabling 
 
 #### [XEP-0049](https://xmpp.org/extensions/xep-0049.html): private
 Some clients offer users the ability to store arbitrary notes or client specific information on the server such as chatroom bookmarks which Prosody supports via mod_private (for room bookmarks, etc).
+
+#### [XEP-0060](https://xmpp.org/extensions/xep-0060.html): pubsub
+Pubsub (Publish-Subscribe) is an XMPP extension that allows pieces of data to be published to 'nodes', and then automatically broadcast to any subscribers to those nodes. This is similar to technologies like RSS, except that instead of subscribers continuously checking for new data it is pushed to them in realtime.
+
+#### [XEP-0060](https://xmpp.org/extensions/xep-0060.html): pubsub_feeds
+This module allows Prosody to fetch Atom and RSS feeds for users, and push new results to subscribers over XMPP.
 
 #### [XEP-0077](https://xmpp.org/extensions/xep-0077.html): register
 This module allows users to register new accounts and change passwords. User passwords can be changed even if new user registration is disabled.
