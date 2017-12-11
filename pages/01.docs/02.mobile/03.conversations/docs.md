@@ -3,6 +3,11 @@ title: Conversations
 taxonomy:
     category:
         - docs
+metadata:
+    'og:title': Conversations
+    'og:description': Use the Conversations Android mobile client to get connected to the KodeNet XMPP/Jabber network.
+    'og:url': https://www.koderoot.net/docs/mobile/conversations
+    'og:image': https://conversations.im/images/conversations_logo.png
 ---
 
 ![Conversations](/media/conversations/connect/conversations_logo.png)
