@@ -18,7 +18,7 @@ KodeNet uses the [discord-irc](https://github.com/reactiflux/discord-irc) projec
 #### Discord
 >>>>> [Create a Discord account](https://discordapp.com/register)
 
-Discord users can easily connect to the KodeNet Discord server with an [invite](https://discord.gg/HCzScbX). Once you join there is nothing that needs to be done. Simply send messages from KodeNet's Discord or IRC server. Messages between both networks will be sent and received as one unified network.
+Discord users can easily connect to the KodeNet Discord server with an [invite](https://discord.gg/HCzScbX). Once you join there is nothing that needs to be done. Simply send messages from KodeNet's Discord or [IRC network](https://www.koderoot.net/docs/irc/info). Messages between both networks will be sent and received as one unified network.
 
 ![Discord-IRC](/media/discord-to-irc/connect/discord-irc.gif)
 
