@@ -1,5 +1,5 @@
 ---
-title: Info
+title: Connecting
 taxonomy:
     category:
         - docs
