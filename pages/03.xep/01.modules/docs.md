@@ -124,7 +124,13 @@ Using this module allows the servers to respond to software version requests.
 This module allow users to set vCards containing contact information. Users are not required to fill in a vCard and can supply as much or as little as they like.
 
 #### [undefined]: webpresence
-Quite often you may want to publish your Jabber status to your blog or website. The webpresence module allows you to do exactly this. <a href="xmpp:staff@kode.im"><img src="https://im.koderoot.net/status/staff@kode.im" alt="xmpp online status"/> </a>
+Quite often you may want to publish your Jabber status to your blog or website. The webpresence module allows you to do exactly this with the following code.
+
+```
+<a href="xmpp:<jid>@kode.im"><img src="https://im.koderoot.net/status/<jid>@kode.im" alt="xmpp online status"/> </a>
+```
+
+<a href="xmpp:staff@kode.im"><img src="https://im.koderoot.net/status/staff@kode.im" alt="xmpp online status"/> </a>
 
 #### [RFC-7395](https://tools.ietf.org/html/rfc7395): websocket
 WebSockets is a protocol for providing web pages with simple two-way communication with a web server. This module allows browsers to communicate with Prosody via XMPP over WebSockets. This usually induces less overhead than using BOSH.
