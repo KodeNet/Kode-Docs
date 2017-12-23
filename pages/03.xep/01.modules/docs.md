@@ -13,7 +13,7 @@ Prosody - the service powering KodeNet XMPP/Jabber communication services is cus
 ## Modules
 
 #### [XEP-0191](https://xmpp.org/extensions/xep-0191.html): blocking
-Simple Communications Blocking support.
+The blocklist module implements the blocking extension for Simple Communications Blocking support. This module defined by XEP-0191 replaces the depcrecated Privacy Lists [XEP-0016](https://xmpp.org/extensions/xep-0016.html).
 
 #### [undefined]: block_strangers
 This module blocks strangers not in your roster (also known as a Contact/Buddy List).
@@ -72,9 +72,6 @@ Enables users to publish their mood, activity, playing music and more.
 #### [XEP-0084](https://xmpp.org/extensions/xep-0084.html) & [XEP-0153](https://xmpp.org/extensions/xep-0153.html): pep_vcard_avatar 
 This module pushes the users nickname and avatar from vCards into PEP, or into vCards from PEP. This allows interop between older clients that use XEP-0153: vCard-Based Avatars to see the avatars of clients that use XEP-0084: User Avatar and vice versa.
 
-#### [XEP-0016](https://xmpp.org/extensions/xep-0016.html): privacy_lists
-This specification defines an XMPP protocol extension for enabling or disabling communication with other entities on a network. This module is being phased out in favour of the newer simpler blocking (XEP-0191) protocol.
-
 #### [XEP-0049](https://xmpp.org/extensions/xep-0049.html): private
 Some clients offer users the ability to store arbitrary notes or client specific information on the server such as chatroom bookmarks which Prosody supports via mod_private (for room bookmarks, etc).
 
@@ -127,7 +124,7 @@ Using this module allows the servers to respond to software version requests.
 This module allow users to set vCards containing contact information. Users are not required to fill in a vCard and can supply as much or as little as they like.
 
 #### [undefined]: webpresence
-Quite often you may want to publish your Jabber status to your blog or website. The webpresence module allows you to do exactly this. <img src="https://im.koderoot.net/status/staff" alt="online xmpp status" />
+Quite often you may want to publish your Jabber status to your blog or website. The webpresence module allows you to do exactly this. <a href="xmpp:staff@kode.im"><img src="https://im.koderoot.net/status/staff@kode.im" alt="xmpp online status"/> </a>
 
 #### [RFC-7395](https://tools.ietf.org/html/rfc7395): websocket
 WebSockets is a protocol for providing web pages with simple two-way communication with a web server. This module allows browsers to communicate with Prosody via XMPP over WebSockets. This usually induces less overhead than using BOSH.
