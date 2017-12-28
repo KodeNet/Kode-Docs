@@ -3,6 +3,11 @@ title: 'XMPP Modules'
 taxonomy:
     category:
         - docs
+metadata:
+    'og:title': XMPP/Jabber Modules
+    'og:description': Check out a list of some different plugins used to add features and functionality on the KodeNet XMPP/Jabber network.
+    'og:url': https://www.koderoot.net/docs/xep/modules
+    'og:image': https://media.koderoot.net/images/kodenet-favicon.png
 ---
 
 ## Intro
