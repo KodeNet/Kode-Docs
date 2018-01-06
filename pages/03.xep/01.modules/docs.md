@@ -1,13 +1,13 @@
 ---
 title: 'XMPP Modules'
+metadata:
+    'og:title': 'XMPP/Jabber Modules'
+    'og:description': 'Check out a list of some different plugins used to add features and functionality on the KodeNet XMPP/Jabber network.'
+    'og:url': 'https://www.koderoot.net/docs/xep/modules'
+    'og:image': 'https://media.koderoot.net/images/kodenet-favicon.png'
 taxonomy:
     category:
         - docs
-metadata:
-    'og:title': XMPP/Jabber Modules
-    'og:description': Check out a list of some different plugins used to add features and functionality on the KodeNet XMPP/Jabber network.
-    'og:url': https://www.koderoot.net/docs/xep/modules
-    'og:image': https://media.koderoot.net/images/kodenet-favicon.png
 ---
 
 ## Intro
@@ -70,6 +70,9 @@ This module logs the conversation of chatrooms running on the server to Prosodyâ
 
 #### [XEP-0045](https://xmpp.org/extensions/xep-0045.html): muc
 The Multi-User Chat specification defines an XMPP protocol extension for multi-user text chat, whereby multiple XMPP users can exchange messages in the context of a room or channel, similar to Internet Relay Chat (IRC).
+
+#### [XEP-0384](https://xmpp.org/extensions/xep-0384.html): omemo
+OMEMO, a recursive acronym for "OMEMO Multi-End Message and Object Encryption" provides multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline.
 
 #### [XEP-0163](https://xmpp.org/extensions/xep-0163.html): pep
 Enables users to publish their mood, activity, playing music and more.
@@ -135,7 +138,11 @@ Quite often you may want to publish your Jabber status to your blog or website. 
 <a href="xmpp:<jid>@kode.im"><img src="https://im.koderoot.net/status/<jid>@kode.im" alt="xmpp online status"/> </a>
 ```
 
-<a href="xmpp:staff@kode.im"><img src="https://im.koderoot.net/status/staff@kode.im" alt="xmpp online status"/> </a>
+<a href="xmpp:staff@kode.im"><img src="https://im.koderoot.net/status/staff@kode.im" alt="xmpp online status"/></a>
 
+ 
 #### [RFC-7395](https://tools.ietf.org/html/rfc7395): websocket
 WebSockets is a protocol for providing web pages with simple two-way communication with a web server. This module allows browsers to communicate with Prosody via XMPP over WebSockets. This usually induces less overhead than using BOSH.
+
+#### [XEP-0368](https://xmpp.org/extensions/xep-0368.html): xmpp_over_tls
+This XEP provides an easy way for clients to bypass restrictive firewalls that only allow HTTPS by making XMPP connections possible even if the client's network blocks the standard XMPP client ports. For example, whether a KodeNet XMPP user is at the airport, hotel or a public wireless network, the XMPP client can still establish a connection over port 443.
