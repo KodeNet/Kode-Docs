@@ -29,6 +29,11 @@ Before connecting with WeeChat you must first specify the path of the Common CA 
 **macOS**
 `/set weechat.network.gnutls_ca_file "/usr/local/etc/openssl/cert.pem"`
 
+#### The Lounge
+The Lounge is a modern self-hosted web IRC client. All web client connections are automatically TLS secured.
+
+[![The Lounge](/user/pages/media/irc/TheLounge.png)](https://irc.koderoot.net)
+
 ## Services
 #### NickServ
 Register a username.
