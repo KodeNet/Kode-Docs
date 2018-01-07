@@ -22,7 +22,10 @@ Available KodeNet domains `im.koderoot.net` or `kode.im` can be entered in the *
 ##### Web Page
 KodeNet XMPP also has an available web registration page allowing registration on the following domains:
 
-+ [im.koderoot.net](https://im.koderoot.net/register-on-im.koderoot.net)
-+ [kode.im](https://im.koderoot.net/register-on-kode.im) 
+| Domain | Score |
+|:---:|:---:|
+| [im.koderoot.net](https://im.koderoot.net/register-on-im.koderoot.net) | <a href='https://check.messaging.one/result.php?domain=im.koderoot.net&amp;type=client'><img src='https://check.messaging.one/badge.php?domain=im.koderoot.net' alt='IM observatory score' /></a> |
+| [kode.im](https://im.koderoot.net/register-on-kode.im) | <a href='https://check.messaging.one/result.php?domain=kode.im&amp;type=client'><img src='https://check.messaging.one/badge.php?domain=kode.im' alt='IM observatory score' />
+</a>
 
-New registrations must complete a required CAPTCHA in an attempt to fight off spammers and determine whether or not the user is human. 
+New registrations must complete a required CAPTCHA in an attempt to fight off spammers and determine whether or not the user is human.  
