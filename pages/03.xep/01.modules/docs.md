@@ -24,7 +24,7 @@ The blocklist module implements the blocking extension for Simple Communications
 This module blocks strangers not in your roster (also known as a Contact/Buddy List).
 
 #### [XEP-0124](https://xmpp.org/extensions/xep-0124.html): bosh
-Enable BOSH clients, also known as "Jabber over HTTP".
+Enable BOSH clients, also known as "Jabber over HTTP" available at `https://im.koderoot.net/http-bind`.
 
 #### [XEP-0280](https://xmpp.org/extensions/xep-0280.html): carbons
 Message Carbons allows users to maintain a shared and synchronized view of all conversations across all your online clients and devices.
@@ -142,7 +142,7 @@ Quite often you may want to publish your Jabber status to your blog or website. 
 
  
 #### [RFC-7395](https://tools.ietf.org/html/rfc7395): websocket
-WebSockets is a protocol for providing web pages with simple two-way communication with a web server. This module allows browsers to communicate with Prosody via XMPP over WebSockets. This usually induces less overhead than using BOSH.
+WebSockets available at `https://im.koderoot.net/xmpp-websocket` is a protocol for providing web pages with simple two-way communication with a web server. This module allows browsers to communicate via XMPP over WebSockets. This usually induces less overhead than using BOSH.
 
 #### [XEP-0368](https://xmpp.org/extensions/xep-0368.html): xmpp_over_tls
 This XEP provides an easy way for clients to bypass restrictive firewalls that only allow HTTPS by making XMPP connections possible even if the client's network blocks the standard XMPP client ports. For example, whether a KodeNet XMPP user is at the airport, hotel or a public wireless network, the XMPP client can still establish a connection over port 443.
