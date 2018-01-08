@@ -14,7 +14,7 @@ metadata:
 
 > Conversations is a Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
 
-[Conversations](https://goo.gl/3vaYZP) is currently one of the best modern open source Android XMPP clients available. This is the recommended XMPP/Jabber client for Android mobile devices featuring [XEP-0384 OMEMO](https://xmpp.org/extensions/xep-0384.html), a state of the art multi-end-to-multi-end encryption method which is very easy to setup and gives you forward secrecy and plausible deniability. For backwards compatibility reasons Conversations also supports OTR and OpenPGP.
+[Conversations](https://goo.gl/3vaYZP) is the technology leader in mobile XMPP instant messaging. This is the recommended XMPP/Jabber client for Android mobile devices featuring [XEP-0384 OMEMO](https://xmpp.org/extensions/xep-0384.html), a state of the art multi-end-to-multi-end encryption method which is very easy to setup and gives you forward secrecy and plausible deniability. For backwards compatibility reasons Conversations also supports OTR and OpenPGP.
 
 KodeNet XMPP/Jabber users can connect with Conversations following these simple steps.
 
