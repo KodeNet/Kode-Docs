@@ -5,7 +5,9 @@ taxonomy:
         - docs
 ---
 
-> Xabber is the most popular open-source XMPP client for Android. It supports multiple XEPs, Off-The-Record (OTR) chat encryption and is available in multiple languages. Xabber is built around open source standards, interoperability, design and user experience.
+_Xabber is an open-source XMPP client for Android. It supports multiple XEPs, Off-The-Record (OTR) chat encryption and is available in multiple languages. Xabber is built around open source standards, interoperability, design and user experience._
+
+>>>Xabber has no plans to support OMEMO encryption and refers to those seeking privacy as [_junkies_ and _crypto-nerds_](https://github.com/redsolution/xabber-android/issues/540#issuecomment-334995574) in addition to other wild assumptions. KodeNet values user privacy and therefore would not recommend this client.
 
 ## Connecting
 
