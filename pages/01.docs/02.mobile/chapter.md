@@ -6,4 +6,4 @@ taxonomy:
 
 # Mobile
 
-The information covered in this section will describe how to connect a **KodeNet** XMPP/Jabber account to a list of **recommended** Mobile chat clients.
+The information covered in this section will describe how to connect a **KodeNet** XMPP/Jabber account to a list of Mobile chat clients.
