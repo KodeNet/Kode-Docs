@@ -20,9 +20,6 @@ Prosody - the service powering KodeNet XMPP/Jabber communication services is cus
 #### [XEP-0191](https://xmpp.org/extensions/xep-0191.html): blocking
 The blocklist module implements the blocking extension for Simple Communications Blocking support. This module defined by XEP-0191 replaces the depcrecated Privacy Lists [XEP-0016](https://xmpp.org/extensions/xep-0016.html).
 
-#### [undefined]: block_strangers
-This module blocks strangers not in your roster (also known as a Contact/Buddy List).
-
 #### [XEP-0124](https://xmpp.org/extensions/xep-0124.html): bosh
 Enable BOSH clients, also known as "Jabber over HTTP" available at `https://im.koderoot.net/http-bind`.
 
