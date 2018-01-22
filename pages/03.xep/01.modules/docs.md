@@ -50,6 +50,9 @@ This module implements XEP-0363, versions 0.2 and 0.3, which let clients upload 
 #### [undefined]: invite
 This module allows users with an account to generate single-use invite URLs using an ad-hoc command. After the account is created, the inviter and the invitee are automatically added to the other’s roster. The inviter of a user is stored, so can be used later (for example, for detecting spammers).
 
+#### [XEP-0166](https://xmpp.org/extensions/xep-0166.html): jingle
+Jingle provides peer-to-peer (P2P) session control (signaling) for multimedia interactions such as in Voice over IP (VoIP) or videoconferencing communications. See the list of supported [XMPP Jingle clients](https://en.wikipedia.org/wiki/Jingle_(protocol)#Clients_supporting_Jingle) to use voice and video chat with your KodeNet Jabber account.
+
 #### [XEP-0012](https://xmpp.org/extensions/xep-0012.html): lastactivity
 With this module users can query how long another user has been idle.
 
