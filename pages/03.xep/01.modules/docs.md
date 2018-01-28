@@ -30,13 +30,7 @@ Message Carbons allows users to maintain a shared and synchronized view of all c
 The purpose of push notifications is to inform users of new messages or other pertinent information even when they have no XMPP clients online. Notifications are typically delivered to a user's mobile device.
 
 #### [XEP-0352](http://xmpp.org/extensions/xep-0352.html): csi
-This module implements Client State Indication, a way for mobile clients to tell the server that they are sitting in someones pocket and would rather not get some less urgent things pushed to it. Client State Indication works in conjunction with the following additional modules:
-
-##### _throttle presence_ #####
-This module works with csi to supress presence updates (Available, Away, Busy, etc).
-
-##### _filter chatstates_ ##### 
-This module also works with csi to remove chat states (Someone is typing…).
+This module implements Client State Indication, a way for mobile clients to tell the server that they are sitting in someones pocket and would rather not get some less urgent things pushed to it. Client State Indication works in conjunction with `csi_battery_saver` to properly support timestamping, carbon copies, encrypted message handling and correctly handled smacks events. 
 
 #### [XEP-0220](https://xmpp.org/extensions/xep-0220.html): dialback
 This module is used between XMPP servers to provide identity verification. Server Dialback uses the Domain Name System (DNS) as the basis for verifying identity; the basic approach is that when a receiving server accepts a server-to-server connection from an initiating server, it does not process XMPP stanzas over the connection until it has verified the initiating server's identity.
