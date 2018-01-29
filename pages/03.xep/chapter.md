@@ -8,4 +8,4 @@ taxonomy:
 ### Section 3
 # XMPP Extensions
 
-Information presented in this section covers several different modules used on the KodeNet XMPP/Jabber network.
+Information presented in this section covers several different features available on the KodeNet XMPP/Jabber network.
