@@ -9,7 +9,7 @@ taxonomy:
 
 ## Connecting
 
-Pidgin users can connect a KodeNet Jabber ID with the following steps.
+Pidgin users can connect to the KodeNet XMPP/Jabber network with the following steps.
 
 1. The following dialog will be presented after launching Pidgin for the first time.
 ![Pidgin](/user/pages/media/pidgin/connect/step1.png)
@@ -21,4 +21,5 @@ The XMPP/Jabber account should now show Online.
 >>>>> By default newly connected accounts will see a **Support** contact in the roster list. This contact is not required to have and can be removed or re-added at anytime. This contact is simply available for questions and assistance.
 
 #### Resources
-[Pidgin User Guide](https://developer.pidgin.im/wiki/Using%20Pidgin)
++ [Pidgin User Guide](https://developer.pidgin.im/wiki/Using%20Pidgin)
++ [OMEMO](https://github.com/gkdr/lurch)
