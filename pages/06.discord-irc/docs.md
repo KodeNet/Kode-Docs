@@ -25,7 +25,6 @@ The following table displays KodeNet Discord and IRC channels that can communica
 
 | Discord         | IRC             |
 | ----------------|:---------------:|
-| `#voidchat`     | `#chat`         |
 | `#irc`          | `#discord`      |
 | `#kodenet`      | `#kodenet`      |
 | `#linuxpowered` | `#linuxpowered` |
