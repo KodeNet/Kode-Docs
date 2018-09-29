@@ -28,7 +28,6 @@ The following table displays KodeNet Discord and IRC channels that can communica
 | `#irc`          | `#discord`      |
 | `#kodenet`      | `#kodenet`      |
 | `#linuxpowered` | `#linuxpowered` |
-| `#party`        | `#party`        |
 | `#random`       | `#random`       |
 | `#support`      | `#help`         |
 | `#xmpp`         | `#xmpp`         |
